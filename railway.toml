@@ -10,3 +10,7 @@ directory = "backend"
 builder = "nixpacks"
 buildCommand = "pip install -r requirements.txt"
 startCommand = "python -m uvicorn app.main:app --host 0.0.0.0 --port $PORT"
+
+[deploy.targets.backend.variables]
+DATABASE_URL = "postgresql://${PGUSER}:${PGPASSWORD}@${PGHOST}:${PGPORT}/${PGDATABASE}"
+PYTHONPATH = "/app/backend"
