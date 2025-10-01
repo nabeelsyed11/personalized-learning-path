@@ -1,3 +1,6 @@
+from datetime import datetime
+from typing import List, Optional
+
 from pydantic import BaseModel
 
 from .profile import ProfileBase, ProfileCreate, Profile, RecommendationRequest
