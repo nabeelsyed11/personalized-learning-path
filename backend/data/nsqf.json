@@ -1,0 +1,32 @@
+[
+  {
+    "level": 4,
+    "qualification": "Diploma in Electronics",
+    "example_courses": ["Basic Electronics", "Embedded Systems Intro"]
+  },
+  {
+    "level": 5,
+    "qualification": "Certificate in Data Analytics",
+    "example_courses": ["Intro to Python", "Data Analysis"]
+  },
+  {
+    "level": 5,
+    "qualification": "Advanced Diploma in IT",
+    "example_courses": ["Networking Fundamentals", "Database Management"]
+  },
+  {
+    "level": 6,
+    "qualification": "Bachelor's in Computer Applications",
+    "example_courses": ["Data Structures", "Web Development"]
+  },
+  {
+    "level": 7,
+    "qualification": "Master's in Data Science",
+    "example_courses": ["Machine Learning", "Big Data Analytics"]
+  },
+  {
+    "level": 4,
+    "qualification": "Certificate in Healthcare Technology",
+    "example_courses": ["Medical Equipment Handling", "Patient Care"]
+  }
+]
